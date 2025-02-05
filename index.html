@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My awesome Quiz</title>
+
+	<!-- Bootstrap 5 setup -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- JS Setup -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+		<br></br>
+	<h1 class="header">If 🍎 = 20 and 🍊 = 5, compute for the following</h1>
+		<br></br>
+
+		<!-- the whole container -->
+		<div class="container container-fluid col-9">
+			<!-- the operators -->
+					</br>
+			<div class="Arithmetic col-7">
+			</br>
+				<h2>Arithmetic Operator</h2>
+					<script type="text/javascript">
+						document.write('</br>Exponent: ');
+					</script>
+					
+					</br>
+					<h3 id="exponent">0</h3>
+					<button type="button" class="btn btn-primary" onclick="
+					var Apple=20; 
+					var Orange=5; 
+					document.getElementById('exponent').innerHTML = ' ' 
+					+ Apple**Orange + '.' ">show answer
+					</button>
+					</br>
+
+			</div>
+
+					</br>
+			<div class="Comparison col-7">
+				</br>
+				<h2>Comparison Operator</h2>
+					<script type="text/javascript">
+						document.write('</br> 🍎 = 20 and 🍊 = 5:');
+					</script>
+
+					</br>
+					<h3 id="true">____</h3>
+				</br>
+						<!-- true  -->
+					<button type="button" class="btn btn-primary" onclick="
+					var Apple=20; 
+					var Orange=5; 
+					document.getElementById('true').innerHTML = 'is a greater than b?: ' + Apple>Orange + '.' ">is 🍎 greater than 🍊?
+					</button>
+						<!-- false -->
+					<button type="button" class="btn btn-primary" onclick="
+					var Apple=20; 
+					var Orange=5; 
+					document.getElementById('true').innerHTML = 'is b greater than a?: ' + Apple<Orange + '.' ">is 🍊 greater than 🍎?
+					</button>
+					</br>
+			</div>
+
+
+					</br>
+			<div class="Logical col-7">
+				</br>
+				<h2>Logical Operator</h2>
+					<script type="text/javascript">
+						document.write('</br> (a < = b) && (a > = b)');
+					</script>
+
+					</br>
+					<h3 id="show">____</h3>
+					</br>
+
+					<button type="button" class="btn btn-primary" onclick="
+					var A=20; 
+					var B=5; 
+					document.getElementById('show').innerHTML = 'is a greater than b?: ' + A<B + '.' ">show answer
+					</button>
+			</div>
+			<!-- the operators -->
+
+
+					<br></br>
+		<button type="button" class="btn btn-danger" 	onClick="window.location.reload()">
+ 		REFRESH
+		</button>
+					</br>
+
+			<br>
+	<h2><a href="https://aabayon-9e.github.io/2QProfile/" target="blank"> Andrian Joseph Y. Abayon | 9-Emerald</a></h2>
+		</div>
+
+</center>
+
+</body>
+</html>

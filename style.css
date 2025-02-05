@@ -1,0 +1,46 @@
+body{
+	font-family: Times new Roman;
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7dafdbe-761c-48d3-b4c9-049cb763b376/d8ot4fj-e1d6fb2d-1e79-43ea-9010-c76607b80349.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U3ZGFmZGJlLTc2MWMtNDhkMy1iNGM5LTA0OWNiNzYzYjM3NlwvZDhvdDRmai1lMWQ2ZmIyZC0xZTc5LTQzZWEtOTAxMC1jNzY2MDdiODAzNDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I0pfNyP9AYz-Hbzpz3fHqaU5732zxyvZYgdha68enZ4);
+	background-size: cover;
+	text-shadow: 4px 4px 18px rgba(0,0,0,0.37);
+
+}
+.header{
+	background-image: url(https://media.istockphoto.com/id/978958908/video/blue-sky-full-of-clouds-moving-right-to-left-cartoon-sky-background-flat-animation.jpg?s=640x640&k=20&c=Dm0VVLyH8CSfKOxQNfXj9FjM1tFht5pAfNVy6ujS4Z8=);
+ 	background-position: center;
+  	margin: 30px;
+ 	padding: 40px;
+ 	border-radius: 30px;
+ 	box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+	-webkit-box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+	-moz-box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+
+}
+.container{
+	background-image: url(https://m.media-amazon.com/images/I/71R1zVRY5BL._AC_SL1001_.jpg);
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	background-size: cover;
+	box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+	-webkit-box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+	-moz-box-shadow: -1px 24px 67px -15px rgba(0,0,0,0.66);
+}
+.Arithmetic{
+	background-color: #53e740;
+	background-image: linear-gradient(183deg, #53e740 0%, #49ff55 46%, #27c27d 100%);
+	border-radius: 40px;
+
+}
+.Comparison{
+	background-color: #53e740;
+	background-image: linear-gradient(183deg, #53e740 0%, #49ff55 46%, #27c27d 100%);
+	border-radius: 40px;
+
+}
+.Logical{
+	background-color: #53e740;
+	background-image: linear-gradient(183deg, #53e740 0%, #49ff55 46%, #27c27d 100%);
+	border-radius: 40px;
+
+
+}
